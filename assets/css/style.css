@@ -1,0 +1,13 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header{
+    text-align: center;
+    background-color: rgb(27, 172, 165);
+    color: rgb(0, 0, 0);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
