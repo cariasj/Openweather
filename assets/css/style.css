@@ -11,3 +11,24 @@ header{
     padding-bottom: 5px;
 }
 
+.container{
+    border-style: solid;
+    margin-bottom: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+}
+
+.searchcontainer{
+    border-style: solid;
+    padding-top: 15px;
+
+}
+
+.futurecontainer{
+    flex-wrap: nowrap;
+    border-style: solid;
+    
+}
+
+
