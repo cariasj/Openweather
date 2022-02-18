@@ -18,29 +18,35 @@
     <header>
         <h1>Weather Dashboard</h1>
     </header>
-
-  <div class="mainweathercontainer">
-    <section>
+    <!-- Main Weather Section -->
+    <div class="mainweathercontainer">
         <div class="row">
             <div class="col-md-4">
-                    <h2>Search for a City:</h2>
+                <h2>Search for a City:</h2>
                     <div id="searchcontainer">
                         <input type="text" id="searchbar" placeholder="Name of City">
                         <div>
                             <button type="button" class="btn btn-info">Search</button>
-                        </div>
+                        </div>    
                     </div>
             </div> 
+
             <div class="col-md-8"> 
                 <div class="container" id="populatedcity">
                     <p>Temp:</p>
                     <p>Wind:</p>
                     <p>Humidity:</p>
                     <p>UV Index:</p>
-                </div>    
-            </div>
+                </div> 
+            </div>       
+        </div>
+  </div>
+  <!-- End Main Weather -->
 
+    <!-- Future Weather Section -->
+    <div class="futureweathercontainer">
         <div class="row"> 
+            <h2>5-Day Forecast:</h2>
             <div class="col-md-2"> 
                 <div class="futureweather" id="futureweather">
                     <div class="card" style="width: 10rem;">
@@ -112,8 +118,8 @@
             </div>
             
         </div>
-    </section>
-  </div>
+    </div>
+    <!-- End Future Weather -->
 
 
 
