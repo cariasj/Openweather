@@ -18,7 +18,7 @@
     <header>
         <h1>Weather Dashboard</h1>
     </header>
-    <!-- Main Weather Section -->
+   <!-- city search -->
     <div class="searchcontainer">
         <div class="row">
             <div class="col-md-4">
@@ -31,8 +31,11 @@
                             <button type="button" class="btn btn-info btn-block">Search</button> 
                         </p> 
                 </div>
+                <div id="cityhistory">
+                    <p>Cityname</p>
+                </div>
             </div> 
-
+            <!-- current weather data -->
             <div class="col-md-8"> 
                 <div class="container" id="populatedcity">
                     <h3 class="popcity">City..</h3>
@@ -41,12 +44,13 @@
                     <p class="humidity">Humidity:</p>
                     <p class="uv">UV Index:</p>
                 </div>
-                
+            <!-- 5-day forcast card container -->    
             <div class="col-md-12">
                 <div class="futurecontainer">
                     
                     <div class="row"> 
                         <h2>5-Day Forecast:</h2>
+                        <!-- Card 1 -->
                         <div class="col-md-2"> 
                             <div class="futureweather" id="futureweather">
                                 <div class="card" style="width: 10rem;">
@@ -60,7 +64,7 @@
                                 </div>
                             </div>    
                         </div> 
-                        
+                        <!-- Card 2 -->
                         <div class="col-md-2"> 
                             <div class="futureweather" id="futureweather">
                                 <div class="card" style="width: 10rem;">
@@ -74,7 +78,7 @@
                                 </div>
                             </div>    
                         </div>  
-                        
+                        <!-- Card 3 -->
                         <div class="col-md-2"> 
                             <div class="futureweather" id="futureweather">
                                 <div class="card" style="width: 10rem;">
@@ -88,7 +92,7 @@
                                 </div>
                             </div>    
                         </div>
-            
+                        <!-- Card 4 -->
                         <div class="col-md-2"> 
                             <div class="futureweather" id="futureweather">
                                 <div class="card" style="width: 10rem;">
@@ -102,7 +106,7 @@
                                 </div>
                             </div>    
                         </div>
-            
+                        <!-- Card 5 -->
                         <div class="col-md-2"> 
                             <div class="futureweather" id="futureweather">
                                 <div class="card" style="width: 10rem;">
@@ -123,9 +127,7 @@
         </div>       
     </div>
   </div>
-  <!-- End Main Weather -->
 
-    <!-- Future Weather Section -->
     
 
 

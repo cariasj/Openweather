@@ -31,4 +31,10 @@ header{
     
 }
 
+#cityhistory{
+    border-style: solid;
+    position: absolute;
+    background-color: rgb(235, 233, 230);
+}
+
 
