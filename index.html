@@ -26,9 +26,9 @@
                     Search for a City:
                 </h2>
                 <div id="searchbox">
-                    <input type="text" id="searchbar" placeholder="Name of City">
+                    <input type="text" id="search" placeholder="Name of City">
                         <p> 
-                            <button type="button" class="btn btn-info btn-block">Search</button> 
+                            <button onclick="dataSearch()" type="button" class="btn btn-info btn-block">Search</button> 
                         </p> 
                 </div>
                 <div id="cityhistory">
@@ -38,13 +38,13 @@
             <!-- current weather data -->
             <div class="col-md-8"> 
                 <div class="container" id="populatedcity">
-                    <h3 class="popcity">City..</h3>
+                    <h2 class="popcity" id="currentcityname" >City..</h2>
                     <p class="temp">Temp:</p>
                     <p class="wind">Wind:</p>
                     <p class="humidity">Humidity:</p>
                     <p class="uv">UV Index:</p>
                 </div>
-            <!-- 5-day forcast card container -->    
+            <!-- 5-day forcast card  container -->    
             <div class="col-md-12">
                 <div class="futurecontainer">
                     
