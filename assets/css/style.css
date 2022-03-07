@@ -12,7 +12,7 @@ header{
 }
 
 .container{
-    border-style: solid;
+   /* border-style: solid; */
     margin-bottom: 100px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -20,21 +20,21 @@ header{
 }
 
 .searchcontainer{
-    border-style: solid;
+   /* border-style: solid; */
     padding-top: 15px;
 
 }
 
 .futurecontainer{
     flex-wrap: nowrap;
-    border-style: solid;
+    /*border-style: solid;*/
     
 }
-
+/*
 #cityhistory{
     border-style: solid;
     position: absolute;
     background-color: rgb(235, 233, 230);
 }
-
+*/
 
