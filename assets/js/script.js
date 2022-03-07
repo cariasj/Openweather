@@ -20,7 +20,7 @@ function dataSearch() {
 
 function geoCoordinates(geoCity) {
     /* API call to retrieve Lon & Lat coordinates for weatherCall API call */
-    fetch('http://api.openweathermap.org/geo/1.0/direct?q=' + geoCity + '&limit=5&appid=' + APIKey + '') 
+    fetch('https://api.openweathermap.org/geo/1.0/direct?q=' + geoCity + '&limit=5&appid=' + APIKey + '') 
     .then(function (response) {
         return response.json();
     })
