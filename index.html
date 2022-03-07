@@ -28,17 +28,19 @@
                 <div id="searchbox">
                     <input type="text" id="search" placeholder="Name of City">
                         <p> 
-                            <button onclick="dataSearch()" type="button" class="btn btn-info btn-block">Search</button> 
+                            <button onclick="dataSearch()"  id="btn" type="button" class="btn btn-info btn-block">Search</button> 
                         </p> 
                 </div>
-                <div id="cityhistory">
-                    <img src="" alt="">
+                <div>
+                    <p id="list"></p>
                 </div>
             </div> 
             <!-- current weather data -->
             <div class="col-md-8"> 
                 <div class="container" id="populatedcity">
+                    <p class="time"id="currentcitytime"></p>
                     <h2 class="popcity" id="currentcityname" >City..</h2>
+                    <p class="icon"id="currentcityicon" ></p>
                     <p class="temp"id="currentcitytemp" >Temp:</p>
                     <p class="wind" id="currentcitywind">Wind:</p>
                     <p class="humidity" id="currentcityhum">Humidity:</p>
@@ -56,7 +58,7 @@
                                 <div class="card" style="width: 10rem;">
                                     <div class="card-body" id="daytwodiv">
                                         <p class="card-text-date" >Date</p>
-                                        <p class="card-text-icon" >Icon</p>
+                                        <p class="card-text-icon" id="day2icon"></p>
                                         <p class="card-text-temp" >Temp:</p>
                                         <p class="card-text-wind" >Wind:</p>
                                         <p class="card-text-humidity" >Humidity:</p>
@@ -70,7 +72,7 @@
                                 <div class="card" style="width: 10rem;">
                                     <div class="card-body" id="daythreediv">
                                         <p class="card-text-date" >Date</p>
-                                        <p class="card-text-icon" >Icon</p>
+                                        <p class="card-text-icon" id="day3icon"></p>
                                         <p class="card-text-temp" >Temp:</p>
                                         <p class="card-text-wind" >Wind:</p>
                                         <p class="card-text-humidity" >Humidity:</p>
@@ -84,7 +86,7 @@
                                 <div class="card" style="width: 10rem;">
                                     <div class="card-body" id="dayfourdiv">
                                         <p class="card-text-date" >Date</p>
-                                        <p class="card-text-icon" >Icon</p>
+                                        <p class="card-text-icon" id="day4icon"></p>
                                         <p class="card-text-temp" >Temp:</p>
                                         <p class="card-text-wind" >Wind:</p>
                                         <p class="card-text-humidity" >Humidity:</p>
@@ -98,7 +100,7 @@
                                 <div class="card" style="width: 10rem;">
                                     <div class="card-body" id="dayfivediv">
                                         <p class="card-text-date" >Date</p>
-                                        <p class="card-text-icon" >Icon</p>
+                                        <p class="card-text-icon" id="day5icon"></p>
                                         <p class="card-text-temp" >Temp:</p>
                                         <p class="card-text-wind" >Wind:</p>
                                         <p class="card-text-humidity" >Humidity:</p>
@@ -112,7 +114,7 @@
                                 <div class="card" style="width: 10rem;">
                                     <div class="card-body" id="daysixdiv">
                                         <p class="card-text-date" >Date</p>
-                                        <p class="card-text-icon" >Icon</p>
+                                        <p class="card-text-icon" id="day6icon"></p>
                                         <p class="card-text-temp" >Temp:</p>
                                         <p class="card-text-wind" >Wind:</p>
                                         <p class="card-text-humidity">Humidity:</p>
